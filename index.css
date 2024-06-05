@@ -1,0 +1,38 @@
+html,
+body{
+    background-color: #1a1a1a;
+    width: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #532E1C;
+    color: #C5A880;
+    border: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+
+}
+
+input {
+    background-color: #532E1C;
+    color: #C5A880;
+    border: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    font-size: 17px;
+}
+
+form :hover{
+    background-color: #C5A880;
+    color: #532E1C;
+}
